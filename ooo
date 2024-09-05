@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>HTML FORM</title>
+</head>
+<body>
+    <h1>SignIn Form</h1>
+    <form action="onlymine.html">
+        <label for ='username'>Username:</label>
+        <input type="text" id="username" placeholder="username" required>
+
+        <br>
+        <br>
+
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="password" required>
+  
+        <br>
+        <br>
+
+        <label for="e-mail">E-mail:</label>
+        <input type="e-mail" id="e-mail" placeholder="email" required>
+
+        <br>
+        <br>
+
+        <p>select your gender</p>
+        <label for="male">Male:</label>
+        <input type="Radio" id="male" name="gender" value="male">
+        
+        
+        <label for="female">Female:</label>
+        <input type="Radio" id="female" name="gender" value="female">
+        
+        
+        <label for="other">other</label>
+        <input type="Radio" id="other" name="gender" value="other"> <br> <br>
+
+        <p>select your age</p>
+        
+        <label for="age group">select your age</label>
+
+        <select name="age-group" id="age group">
+            <option value="5-10">5-10</option>
+            <option value="11-25">11-25</option>
+            <option value="26-40">26-40</option>
+            <option value="40+">40+</option>
+
+        </select>
+
+
+        <br> <br>
+    
+        <input type="submit" value="sign in">
+        
+    </form>
+</body>
